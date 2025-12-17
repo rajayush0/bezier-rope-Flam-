@@ -1,4 +1,7 @@
 # Interactive Bézier Curve with Physics
+## live demo: 
+https://bezir-curve.netlify.app/
+
 ## Overview
 This project implements an interactive cubic Bézier curve that behaves like a springy rope. The curve responds in real time to mouse movement and is rendered using HTML Canvas.
 ## Bézier Curve Math
