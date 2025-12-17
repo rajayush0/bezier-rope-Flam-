@@ -1,8 +1,4 @@
-/**
- * Interactive Bézier Curve with Spring Physics
- */
-
-// --- Math & Physics Classes ---
+// Math & Physics Classes
 
 class Vector {
     constructor(x, y) {
@@ -56,7 +52,7 @@ class PhysicsPoint {
     }
 }
 
-// --- Bézier Math ---
+//Bézier Math
 
 function cubicBezier(t, p0, p1, p2, p3) {
     // B(t) = (1-t)^3*P0 + 3(1-t)^2*t*P1 + 3(1-t)t^2*P2 + t^3*P3
@@ -87,7 +83,7 @@ function cubicBezierDerivative(t, p0, p1, p2, p3) {
     return d0.add(d1).add(d2);
 }
 
-// --- Main Application ---
+//Main Application
 
 const canvas = document.getElementById('canvas');
 const ctx = canvas.getContext('2d');
